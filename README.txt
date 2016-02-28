@@ -1,4 +1,4 @@
-ndroid app that to allow user searching for photos with specific words.
+Android app that to allow user searching for photos with specific words.
 
 It is going to be done with the Clean Architecture approach by Uncle Bob (http://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html).
 
