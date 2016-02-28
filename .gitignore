@@ -71,6 +71,7 @@ hs_err_pid*
 #.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
 .gradle
 build/
+local.properties
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
