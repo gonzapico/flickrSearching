@@ -12,4 +12,8 @@ public interface HomeSearchView {
     void showFAB();
 
     void hideFAB();
+
+    void showToolbar();
+
+    void hideToolbar();
 }
