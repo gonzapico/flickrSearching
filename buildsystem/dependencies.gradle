@@ -1,0 +1,23 @@
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+ext {
+    //Android
+    androidBuildToolsVersion = "23.0.2"
+    androidMinSdkVersion = 14
+    androidTargetSdkVersion = 23
+    androidCompileSdkVersion = 23
+
+    //Libraries
+    butterKnifeVersion = '7.0.1'
+    supportVersion = '23.1.1'
+
+    presentationDependencies = [
+            butterKnife:        "com.jakewharton:butterknife:${butterKnifeVersion}",
+            supportAppCompat:   "com.android.support:appcompat-v7:${supportVersion}",
+            supportDesign:      "com.android.support:design:${supportVersion}"
+    ]
+}
